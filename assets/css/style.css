@@ -10,24 +10,29 @@ body {
   font-weight: 300;
 }
 
-.header .navbar {
-  background-color: transparent !important;
+.navbar {
+    background-color: transparent !important;
 }
 
 .icon-box {
-  background-color: #dbdbdb;
+  background-color: #63abfd;
   color: #1f1f1f;
   text-align: center;
   border-radius: 60%;
   margin-bottom: 20px;
 }
 
+.btn-primary {
+    background-color: #63abfd;
+}
+
 footer {
-  background-color: aquamarine;
+  background-color: #63abfd;
   width: auto;
   height: 90px;
 }
 
-.footer-icons {
-  text-decoration: none;
+a {
+    color: #fff;
+    text-decoration: none;
 }

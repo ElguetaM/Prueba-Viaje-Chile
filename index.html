@@ -16,12 +16,12 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/js/main.js" />
     <script
       src="https://kit.fontawesome.com/fe10503835.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/main.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
   </head>
 
@@ -69,7 +69,7 @@
           </div>
         </div>
       </nav>
-      
+      <header>
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner carousel-img-size">
           <div class="carousel-item active">
@@ -113,11 +113,12 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      </header>
 
-    <section class="container">
+    <section class="container d-none d-md-block col-md-12">
       <h1 class="text-center mt-5 mb-3">¿QUIENES SOMOS?</h1>
 
-      <div class="container d-none d-md-block">
+      <div class="container d-md-block">
         <div class="row">
           <div class="col-12">
             <hr />
@@ -180,7 +181,7 @@
       <section class="container">
         <h1 class="text-center m-4">DESTACADOS</h1>
 
-    <div class="container d-none d-md-block mb-">
+    <div class="container d-md-block mb-4">
         <div class="row">
           <div class="col-12">
             <hr />
@@ -189,7 +190,7 @@
       </div>
 
         <div class="row">
-          <div class="col-sm-3 mb-3 mb-sm-0">
+          <div class="col-sm-3 mb-3">
             <div class="card">
                 <img src="./assets/img/card1.jpg" alt="paisaje1">
               <div class="card-body">
@@ -240,7 +241,7 @@
 <section class="contacto m-5">
     <h1 class="text-center">CONTACTO</h1>
 
-    <div class="container d-none d-md-block mb-">
+    <div class="container">
         <div class="row">
           <div class="col-12">
             <hr />
@@ -263,7 +264,7 @@
   <textarea class="form-control" id="exampleFormControlMensaje" rows="3"></textarea>
 </div>
       </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
+      <button button type="submit" id="enviar" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Presiona para enviar">Enviar</button>
     </section>
     </section>
 
@@ -280,13 +281,13 @@
             <a href="https://github.com/"><i class="fa-brands fa-github fa-2x"></i></a>
             </div>
             <div class="col">
-            <a href=""><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="https://cl.linkedin.com/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
             </div>
             <div class="col">
-            <a href=""><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+            <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
             </div>
             <div class="col">
-            <a href=""><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+            <a href="https://www.facebook.com/?locale=es_LA"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
             </div>
           </div>
           </section>

@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .icon-box {
@@ -23,16 +23,16 @@ body {
 }
 
 .btn-primary {
-    background-color: #63abfd;
+  background-color: #63abfd;
 }
 
 footer {
   background-color: #63abfd;
   width: auto;
-  height: 90px;
+  padding: 25px;
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }

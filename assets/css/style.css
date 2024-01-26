@@ -7,10 +7,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/* #carouselExample {
-    margin-top: -20px;
-} */
-
-/* .navbar {
+.header .navbar {
     background-color: transparent !important;
-} */
+}
